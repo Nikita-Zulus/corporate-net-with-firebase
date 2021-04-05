@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/corporate-net-with-firebase/static/css/main.12fd9a0f.chunk.css",
+    "main.js": "/corporate-net-with-firebase/static/js/main.9ed4c360.chunk.js",
+    "main.js.map": "/corporate-net-with-firebase/static/js/main.9ed4c360.chunk.js.map",
+    "runtime-main.js": "/corporate-net-with-firebase/static/js/runtime-main.1ef0d059.js",
+    "runtime-main.js.map": "/corporate-net-with-firebase/static/js/runtime-main.1ef0d059.js.map",
+    "static/js/2.d3d6c67b.chunk.js": "/corporate-net-with-firebase/static/js/2.d3d6c67b.chunk.js",
+    "static/js/2.d3d6c67b.chunk.js.map": "/corporate-net-with-firebase/static/js/2.d3d6c67b.chunk.js.map",
+    "index.html": "/corporate-net-with-firebase/index.html",
+    "precache-manifest.181136a6db88edc8591c4f3eb75a7b28.js": "/corporate-net-with-firebase/precache-manifest.181136a6db88edc8591c4f3eb75a7b28.js",
+    "service-worker.js": "/corporate-net-with-firebase/service-worker.js",
+    "static/css/main.12fd9a0f.chunk.css.map": "/corporate-net-with-firebase/static/css/main.12fd9a0f.chunk.css.map",
+    "static/js/2.d3d6c67b.chunk.js.LICENSE.txt": "/corporate-net-with-firebase/static/js/2.d3d6c67b.chunk.js.LICENSE.txt",
+    "static/media/Homer_Simpson.jpg": "/corporate-net-with-firebase/static/media/Homer_Simpson.dc8937f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ef0d059.js",
+    "static/js/2.d3d6c67b.chunk.js",
+    "static/css/main.12fd9a0f.chunk.css",
+    "static/js/main.9ed4c360.chunk.js"
+  ]
+}
