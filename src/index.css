@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Wrapper {
+  height: 100vh;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  border-bottom: 2px solid rgb(105, 98, 98);
+}
+.header-main {
+  display: flex;
+}
+.header_color-blue {
+  background-color: rgb(0, 132, 255);
+}
+.header_height-ml {
+  height: 60px;
+}
+.title_xxl {
+  font-weight: 600;
+  font-size: 30px;
+}
+.title_xl {
+  font-weight: 500;
+  font-size: 20px;
+}
+.title_center {
+  text-align: center;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.title_color-white {
+  color: white;
+}
+
+.title_ml {
+  font-family: "Lato";
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 300px;
+  height: 60px;
+  border-bottom: 2px solid rgb(105, 98, 98);
+  /*  border-right: 2px solid rgb(117, 193, 255); */
+  padding-right: 100px;
+}
+.profile_ml {
+  justify-content: flex-start;
+  border-bottom: 0;
+  border-right: 0;
+}
+.title_marlef {
+  margin-left: 5px;
+}
+.navbar {
+  min-width: 300px;
+  /* border-right: 2px solid rgb(117, 193, 255); */
+  background-color: rgba(216, 211, 215, 0.637);
+  align-items: flex-start;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(247, 84, 84);
+}
+.navbar__nav {
+  padding-left: 0;
+}
+.nav__item {
+  display: flex;
+  font-family: "Lato";
+  margin-bottom: 90px;
+  padding-left: 40px;
+  cursor: pointer;
+  height: 40px;
+  align-items: center;
+}
+.nav__link {
+  color: black;
+  text-decoration: none;
+}
+.nav__item:hover {
+  background-color: grey;
+  color: white;
+}
+
+.navbar__brand {
+  height: 60px;
+  padding-left: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 6rem;
+  line-height: 55px;
+  background-color: rgb(148, 45, 126);
+  color: white;
+}
+
+.Body {
+  display: flex;
+  height: calc(100% - 60px);
+}
+.dialog__post {
+  border: 1px solid rgb(105, 98, 98);
+  height: 30px;
+}
+.conversations {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.form__control {
+  width: -webkit-fill-available;
+  height: 30px;
+}
+.form {
+  margin-bottom: 20px;
+}
+.dialog {
+  /* margin-top: 20px; */
+  max-height: 620px;
+  overflow-y: auto;
+}
+
+.dialog__control-buttons {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.red {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.red,
+.del {
+  height: 30px;
+}
+.form_reduct {
+  margin: 0px;
+  flex-grow: 1;
+}
+
+.nav__item_chosen {
+  background-color: grey;
+  color: white;
+}
+.profile_others {
+  margin-bottom: 15px;
+}
+.registration,
+.registration__form-vert {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+}
+.registration {
+  /* margin-top: 100px; */
+}
+.alert {
+  background-color: rgb(255, 0, 64);
+  margin: 0 auto;
+  color: white;
+  font-family: "Lato";
+  border-radius: 5px;
+}
+.alert_main-form {
+  background-color: rgb(255, 0, 64);
+  margin: auto;
+  color: white;
+  font-family: "Lato";
+  border-radius: 5px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .title_xxl {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 560px) {
+  .header-main {
+    flex-direction: column-reverse;
+  }
+  .profile {
+    border-right: none;
+  }
+  .Body {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .navbar {
+    border-right: none;
+    /* height: 200px; */
+  }
+  .nav__item,
+  .navbar__brand {
+    margin-bottom: 0;
+  }
+  .nav__item {
+    margin-top: 20px;
+  }
+  .title_center {
+    text-align: center;
+    margin: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
