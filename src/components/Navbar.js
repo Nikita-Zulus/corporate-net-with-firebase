@@ -13,12 +13,12 @@ function Navbar_(props) {
       <ul className="navbar__nav">
         <NavLink
           className="nav__link"
-          to="/work"
-          onClick={() => setCurrPath("/work")}
+          to="/corporate-net-with-firebase/work"
+          onClick={() => setCurrPath("/corporate-net-with-firebase/work")}
         >
           <li
             className={
-              currPath === "/work" ? "nav__item nav__item_chosen" : "nav__item"
+              currPath === "/corporate-net-with-firebase/work" ? "nav__item nav__item_chosen" : "nav__item"
             }
           >
             Рабочие моменты
@@ -27,12 +27,12 @@ function Navbar_(props) {
 
         <NavLink
           className="nav__link"
-          to="/informal"
-          onClick={() => setCurrPath("/informal")}
+          to="/corporate-net-with-firebase/informal"
+          onClick={() => setCurrPath("/corporate-net-with-firebase/informal")}
         >
           <li
             className={
-              currPath === "/informal"
+              currPath === "/corporate-net-with-firebase/informal"
                 ? "nav__item nav__item_chosen"
                 : "nav__item"
             }
@@ -40,10 +40,10 @@ function Navbar_(props) {
             Неформальное общение
           </li>
         </NavLink>
-        <NavLink className="nav__link" to="/" onClick={() => setCurrPath("/")}>
+        <NavLink className="nav__link" to="/corporate-net-with-firebase/" onClick={() => setCurrPath("/corporate-net-with-firebase/")}>
           <li
             className={
-              currPath === "/" ? "nav__item nav__item_chosen" : "nav__item"
+              currPath === "/corporate-net-with-firebase/" ? "nav__item nav__item_chosen" : "nav__item"
             }
           >
             Информация
@@ -51,12 +51,12 @@ function Navbar_(props) {
         </NavLink>
         <NavLink
           className="nav__link"
-          to="/registration"
-          onClick={() => setCurrPath("/registration")}
+          to="/corporate-net-with-firebase/registration"
+          onClick={() => setCurrPath("/corporate-net-with-firebase/registration")}
         >
           <li
             className={
-              currPath === "/registration"
+              currPath === "/corporate-net-with-firebase/registration"
                 ? "nav__item nav__item_chosen"
                 : "nav__item"
             }

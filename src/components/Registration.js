@@ -18,7 +18,7 @@ function Registration_({
   const submitHandler = (event) => {
     event.preventDefault();
   };
-  setCurrPath("/registration");
+  setCurrPath("/corporate-net-with-firebase/registration");
   let timerId;
   const handleRegistration = () => {
     if (!firstname.length || !secondname.length) {
@@ -90,7 +90,7 @@ const mapDispatchToProps = {
 };
 const mapStateToProps = (state) => {
   return {
-    registration: state.geristration,
+    registration: state.registration,
   };
 };
 export const Registration = connect(

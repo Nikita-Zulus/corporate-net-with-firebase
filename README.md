@@ -1,8 +1,10 @@
 In this project i use libraries: react, redux, react-router-dom, redux-thunk.
 For requests on firebase server i use "axios".
 On the page "Информация" of this particular App, you can can find all information you need to use this app.
-If you want to see this app on github pages please use this link:
+If you want to see this app on github pages please use this link(only static version without requests, gh pages only for static files):
 (https://Nikita-Zulus.github.io/corporate-net-with-firebase)
+
+If you want to see this app with full functionality run it on localhost.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

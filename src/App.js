@@ -19,10 +19,10 @@ function App() {
           <div className="Body">
             <Navbar />
             <Switch>
-              <Route path={"/"} exact component={Introduce} />
-              <Route path={"/registration"} exact component={Registration} />
-              <Route path={"/work"} component={Posts} />
-              <Route path={"/informal"} component={Posts} />
+              <Route path={"/corporate-net-with-firebase/"} exact component={Introduce} />
+              <Route path={"/corporate-net-with-firebase/registration"} exact component={Registration} />
+              <Route path={"/corporate-net-with-firebase/work"} component={Posts} />
+              <Route path={"/corporate-net-with-firebase/informal"} component={Posts} />
             </Switch>
           </div>
         </div>

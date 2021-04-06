@@ -34,10 +34,10 @@ function Posts_({
     return;
   };
   let exactPosts;
-  if (currPath === "/work") {
-    exactPosts = posts.filter((post) => post.path === "/work");
+  if (currPath === "/corporate-net-with-firebase/work") {
+    exactPosts = posts.filter((post) => post.path === "/corporate-net-with-firebase/work");
   } else {
-    exactPosts = posts.filter((post) => post.path === "/informal");
+    exactPosts = posts.filter((post) => post.path === "/corporate-net-with-firebase/informal");
   }
   useEffect(() => {
     clearTimeout(timerId);
@@ -47,7 +47,7 @@ function Posts_({
       <div className="dialog">
         <Others
           words={
-            currPath === "/work"
+            currPath === "/corporate-net-with-firebase/work"
               ? ["В сроки укладываемся", "Всё по графику"]
               : ["Привет привет", "Общаемся неформально"]
           }
